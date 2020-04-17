@@ -754,10 +754,11 @@ Page({
   },
   overSub() {
     let that = this;
-    if (!that.overCheck) {
+    if (!that.overCheck()) {
       wx.showToast({
         title: '存在未填写的项',
       })
+      return;
     }
     let sum = that.getSum();
     wx.navigateTo({
