@@ -1,52 +1,48 @@
-<view wx:if="{{grade==1}}">
-    <view>一年级:</view>
-    <view>
+<van-collapse value="{{ activeNames }}" bind:change="onChange">
+  <van-collapse-item title="{{gradeName}}" name="1">
+    <view wx:if="{{grade==1}}">
+      <view>一年级:</view>
+      <view>
         A套餐：一节30分钟个训课+三节30分钟团体课+家长陪同感统练习60分钟
-        B套餐：一节30分钟个训课+五节30分钟团体课+家长陪同感统练习60分钟
-        团体课：心智语言课、音乐疗育课、艺术培养课、感觉统合训练课、生活情景课
+      </view>
+      <view> B套餐：一节30分钟个训课+五节30分钟团体课+家长陪同感统练习60分钟 </view>
+      <view>团体课：心智语言课、音乐疗育课、艺术培养课、感觉统合训练课、生活情景课</view>
     </view>
-</view>
 
-<view wx:if="{{grade==2}}">
-    <view>二年级：</view>
-    <view>
-        A套餐：一节30分钟2对1特训课+三节30分钟团体课+家长陪同感统练习60分钟
-        B套餐：一节30分钟2对1特训课+五节30分钟团体课+家长陪同感统练习60分钟
-        团体课：心智语言课、音乐疗育课、艺术培养课、感觉统合训练课、生活情景课
+    <view wx:if="{{grade==2}}">
+      <view>二年级：</view>
+      <view>
+        <view> A套餐：一节30分钟2对1特训课+三节30分钟团体课+家长陪同感统练习60分钟 </view>
+        <view> B套餐：一节30分钟2对1特训课+五节30分钟团体课+家长陪同感统练习60分钟 </view>
+        <view> 团体课：心智语言课、音乐疗育课、艺术培养课、感觉统合训练课、生活情景课 </view>
+      </view>
     </view>
-</view>
 
-<view wx:if="{{grade==3||grade==4||grade==5}}">
-    <view wx:if="{{grade==3}}">三年级：</view>
-    <view wx:if="{{grade==4}}">四年级：</view>
-    <view wx:if="{{grade==5}}">五年级：</view>
-    <view>
-        A套餐：四节30分钟团体课+家长陪同感统练习60分钟
-        B套餐：六节30分钟团体课+家长陪同感统练习60分钟
-        团体课：社交语言融合课、逻辑思维课、艺术创造课、音乐疗育课、感统统合训练课、体感课、社交游戏课、幼小衔接课程
+    <view wx:if="{{grade==3||grade==4||grade==5}}">
+      <view wx:if="{{grade==3}}">三年级：</view>
+      <view wx:if="{{grade==4}}">四年级：</view>
+      <view wx:if="{{grade==5}}">五年级：</view>
+      <view>
+        <view> A套餐：四节30分钟团体课+家长陪同感统练习60分钟 </view>
+        <view> B套餐：六节30分钟团体课+家长陪同感统练习60分钟 </view>
+        <view> 团体课：社交语言融合课、逻辑思维课、艺术创造课、音乐疗育课、感统统合训练课、体感课、社交游戏课、幼小衔接课程 </view>
+      </view>
     </view>
-</view>
+  </van-collapse-item>
+  <van-collapse-item title="套餐外可选择的能力提升课：" name="2">
+    <view> 个训课 </view>
+    <view> 一对一感觉统合治疗课 </view>
+    <view> 口部定位言语治疗课 </view>
+    <view> 2对1特训课 </view>
+    <view> 各种团体课</view>
+  </van-collapse-item>
+  <van-collapse-item title="入学年级划分标准：" name="3">
+    <view> 评估分数 </view>
+    <view> ≤120---1年级，需极重度干预 </view>
+    <view> 121-160---2年级，需重度干预 </view>
+    <view> 161-200---3年级，需中度干预 </view>
+    <view> 201-220---4年级，需轻度干预 </view>
+    <view> 221-240---5年级，需轻度干预</view>
+  </van-collapse-item>
 
-<view>
-    套餐外可选择的能力提升课：
-    个训课
-    一对一感觉统合治疗课
-    口部定位言语治疗课
-    2对1特训课
-    各种团体课
-</view>
-
-<view>
-    入学年级划分标准：
-    评估分数   ≤120---1年级，需极重度干预
-    121-160---2年级，需重度干预
-    161-200---3年级，需中度干预
-    201-220---4年级，需轻度干预
-    221-240---5年级，需轻度干预
-</view>
-
-
-
-
-
-
+</van-collapse>
