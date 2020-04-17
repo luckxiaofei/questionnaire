@@ -1689,5 +1689,5 @@
   <van-divider />
 </view>
 
-
+<van-button type="info" bind:click="overSub">填写完毕</van-button>
 
