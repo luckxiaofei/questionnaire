@@ -1,0 +1,10 @@
+.radio{
+  margin-top: 20rpx
+}
+
+.title{
+  margin-right: 20rpx;
+  margin-left: 40rpx;
+  font-size: 35rpx;
+  font-weight: bold;
+}

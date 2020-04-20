@@ -1,7 +1,20 @@
 <van-collapse value="{{ activeNames }}" bind:change="onChange">
-  <van-collapse-item title="{{gradeName}}" name="1">
+
+  <van-collapse-item title="评估分数：" name="1">
+    <view> {{score}}分 </view>
+  </van-collapse-item>
+
+
+  <van-collapse-item title="所需干预程度：" name="2">
+    <view>{{interfereType}} </view>
+  </van-collapse-item>
+
+  <van-collapse-item title="推荐套餐" name="3">
+    <view>{{recommendedPackage}} </view>
+  </van-collapse-item>
+
+  <van-collapse-item title="套餐具体内容" name="4">
     <view wx:if="{{grade==1}}">
-      <view>一年级:</view>
       <view>
         A套餐：一节30分钟个训课+三节30分钟团体课+家长陪同感统练习60分钟
       </view>
@@ -10,18 +23,13 @@
     </view>
 
     <view wx:if="{{grade==2}}">
-      <view>二年级：</view>
       <view>
         <view> A套餐：一节30分钟2对1特训课+三节30分钟团体课+家长陪同感统练习60分钟 </view>
         <view> B套餐：一节30分钟2对1特训课+五节30分钟团体课+家长陪同感统练习60分钟 </view>
         <view> 团体课：心智语言课、音乐疗育课、艺术培养课、感觉统合训练课、生活情景课 </view>
       </view>
     </view>
-
     <view wx:if="{{grade==3||grade==4||grade==5}}">
-      <view wx:if="{{grade==3}}">三年级：</view>
-      <view wx:if="{{grade==4}}">四年级：</view>
-      <view wx:if="{{grade==5}}">五年级：</view>
       <view>
         <view> A套餐：四节30分钟团体课+家长陪同感统练习60分钟 </view>
         <view> B套餐：六节30分钟团体课+家长陪同感统练习60分钟 </view>
@@ -29,14 +37,14 @@
       </view>
     </view>
   </van-collapse-item>
-  <van-collapse-item title="套餐外可选择的能力提升课：" name="2">
+  <van-collapse-item title="套餐外可选择的能力提升课：" name="5">
     <view> 个训课 </view>
     <view> 一对一感觉统合治疗课 </view>
     <view> 口部定位言语治疗课 </view>
     <view> 2对1特训课 </view>
     <view> 各种团体课</view>
   </van-collapse-item>
-  <van-collapse-item title="入学年级划分标准：" name="3">
+  <van-collapse-item title="入学年级划分标准：" name="6">
     <view> 评估分数 </view>
     <view> ≤120---1年级，需极重度干预 </view>
     <view> 121-160---2年级，需重度干预 </view>

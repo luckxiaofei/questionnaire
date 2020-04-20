@@ -2,15 +2,15 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/result/result"
+    "pages/result/result",
+    "pages/questionnaire/questionnaire"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "圣之星自闭症评估小程序",
     "navigationBarTextStyle": "black"
   },
-
   "sitemapLocation": "sitemap.json",
   "usingComponents": {
     "van-row": "@vant/weapp/row/index",
@@ -24,6 +24,7 @@
     "van-button": "@vant/weapp/button/index",
     "van-toast": "@vant/weapp/toast/index",
     "van-collapse": "@vant/weapp/collapse/index",
-    "van-collapse-item": "@vant/weapp/collapse-item/index"
+    "van-collapse-item": "@vant/weapp/collapse-item/index",
+    "van-dialog": "@vant/weapp/dialog/index"
   }
 }
