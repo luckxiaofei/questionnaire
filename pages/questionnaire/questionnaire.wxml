@@ -1,4 +1,3 @@
-
 <van-divider contentPosition="center" customStyle="color: #1989fa;border-color: #1989fa;font-size: 18px;">注意功能</van-divider><view class="item">
   <view class="title">1.听到自己的名字后能做出反应</view>
   <view class="radio">
@@ -63,7 +62,7 @@
 
 
 <view class="item">
-  <view class="title">4.对于两个一组的组合呈现时，可以正确的看向、触摸或者指向正确的一个。（如：爸爸和妈妈一起，引导说妈妈在哪里？）</view>
+  <view class="title">4.对于两个一组的组合呈现时，可以正确的看向、触摸或者指向正确的一个（如：爸爸和妈妈一起，引导说“妈妈在哪里？”等问题）</view>
   <view class="radio">
     <van-radio-group value="{{ radio_1_4 }}" data-id='1_4' bind:change="onChange">
       <van-row>
@@ -84,7 +83,7 @@
 
 
 <view class="item">
-  <view class="title">5.在指令下可以在四个一组的图片或物品中找出正确物品。（如：把苹果给我）</view>
+  <view class="title">5.在指令下可以在四个一组的图片或物品中找出正确物品（如：把苹果给我等）</view>
   <view class="radio">
     <van-radio-group value="{{ radio_1_5 }}" data-id='1_5' bind:change="onChange">
       <van-row>
@@ -233,7 +232,7 @@
 
 
 <view class="item">
-  <view class="title">3.自发发出叠音（爸爸、妈妈等）</view>
+  <view class="title">3.自发发出叠音（如:爸爸、妈妈等）</view>
   <view class="radio">
     <van-radio-group value="{{ radio_3_3 }}" data-id='3_3' bind:change="onChange">
       <van-row>
@@ -254,7 +253,7 @@
 
 
 <view class="item">
-  <view class="title">4.自发的说出—-两个字的词语</view>
+  <view class="title">4.自发的说出一二个字的词语</view>
   <view class="radio">
     <van-radio-group value="{{ radio_3_4 }}" data-id='3_4' bind:change="onChange">
       <van-row>
@@ -275,7 +274,7 @@
 
 
 <view class="item">
-  <view class="title">5.自发说出5—15词语</view>
+  <view class="title">5.自发说出5—15个词语</view>
   <view class="radio">
     <van-radio-group value="{{ radio_3_5 }}" data-id='3_5' bind:change="onChange">
       <van-row>
@@ -296,7 +295,7 @@
 
 
 <view class="item">
-  <view class="title">6.仿说发出元音辅音或叠音（嘟嘟、滴滴等）</view>
+  <view class="title">6.仿说发出元音辅音或叠音（如：嘟嘟、滴滴等）</view>
   <view class="radio">
     <van-radio-group value="{{ radio_3_6 }}" data-id='3_6' bind:change="onChange">
       <van-row>
@@ -359,7 +358,7 @@
 
 
 <view class="item">
-  <view class="title">9.模仿发音可以数数从1---10</view>
+  <view class="title">9.模仿发音可以数数从1—10</view>
   <view class="radio">
     <van-radio-group value="{{ radio_3_9 }}" data-id='3_9' bind:change="onChange">
       <van-row>
@@ -675,7 +674,7 @@
 
 
 <view class="item">
-  <view class="title">14.通过参照物品能进行泛化命名（如：认识不同颜色和形状的苹果）</view>
+  <view class="title">14.通过参照物品能进行泛化命名（如：认识不同颜色和形状的苹果等）</view>
   <view class="radio">
     <van-radio-group value="{{ radio_4_14 }}" data-id='4_14' bind:change="onChange">
       <van-row>
@@ -717,7 +716,7 @@
 
 
 <view class="item">
-  <view class="title">16.能命名名词加动词或者是动词加名词的组合（如：宝宝睡觉、宝宝洗脸）</view>
+  <view class="title">16.能命名名词加动词或者是动词加名词的组合（如：宝宝睡觉、宝宝洗脸等）</view>
   <view class="radio">
     <van-radio-group value="{{ radio_4_16 }}" data-id='4_16' bind:change="onChange">
       <van-row>
@@ -739,7 +738,7 @@
 
 
 <van-divider contentPosition="center" customStyle="color: #1989fa;border-color: #1989fa;font-size: 18px;">表达性语言功能</van-divider><view class="item">
-  <view class="title">1.仿说、手语或图片等表达需求（如：饼干、玩具）</view>
+  <view class="title">1.仿说、手语或图片等表达需求（如：饼干、玩具等）</view>
   <view class="radio">
     <van-radio-group value="{{ radio_5_1 }}" data-id='5_1' bind:change="onChange">
       <van-row>
@@ -802,7 +801,7 @@
 
 
 <view class="item">
-  <view class="title">4.自发表达找寻需求（如：小车在哪里？）</view>
+  <view class="title">4.自发表达找寻需求（如：询问“小车在哪里？”等）</view>
   <view class="radio">
     <van-radio-group value="{{ radio_5_4 }}" data-id='5_4' bind:change="onChange">
       <van-row>
@@ -907,7 +906,7 @@
 
 
 <view class="item">
-  <view class="title">9.辅助下，能够对2个以上物品提出要求</view>
+  <view class="title">9.在辅助下，能够对2个以上物品提出要求</view>
   <view class="radio">
     <van-radio-group value="{{ radio_5_9 }}" data-id='5_9' bind:change="onChange">
       <van-row>
@@ -1034,7 +1033,7 @@
 
 
 <view class="item">
-  <view class="title">6.独立完成简单的活动（如：刷牙的整个过程）</view>
+  <view class="title">6.独立完成简单的活动（如：刷牙的整个过程等）</view>
   <view class="radio">
     <van-radio-group value="{{ radio_6_6 }}" data-id='6_6' bind:change="onChange">
       <van-row>
@@ -1416,7 +1415,7 @@
 
 
 <van-divider contentPosition="center" customStyle="color: #1989fa;border-color: #1989fa;font-size: 18px;">初级社会交往功能</van-divider><view class="item">
-  <view class="title">1.可主动与人握手、会打招呼—你好等</view>
+  <view class="title">1.可主动与人握手、会打招呼（如：说“你好”等）</view>
   <view class="radio">
     <van-radio-group value="{{ radio_10_1 }}" data-id='10_1' bind:change="onChange">
       <van-row>
@@ -1437,7 +1436,7 @@
 
 
 <view class="item">
-  <view class="title">2.与父母、老师玩简单的游戏</view>
+  <view class="title">2.与父母、教师玩简单的游戏</view>
   <view class="radio">
     <van-radio-group value="{{ radio_10_2 }}" data-id='10_2' bind:change="onChange">
       <van-row>
@@ -1458,7 +1457,7 @@
 
 
 <view class="item">
-  <view class="title">3.触摸和探索物体，如：玩新玩具，可以接受，探索怎样去玩</view>
+  <view class="title">3.触摸和探索物体（如：可以接受玩新玩具，探索怎样去玩等）</view>
   <view class="radio">
     <van-radio-group value="{{ radio_10_3 }}" data-id='10_3' bind:change="onChange">
       <van-row>
@@ -1479,7 +1478,7 @@
 
 
 <view class="item">
-  <view class="title">4.会玩因果关系的游戏，如：两个容器间相互倒水</view>
+  <view class="title">4.会玩因果关系的游戏，（如：两个容器间相互倒水等）</view>
   <view class="radio">
     <van-radio-group value="{{ radio_10_4 }}" data-id='10_4' bind:change="onChange">
       <van-row>
@@ -1500,7 +1499,7 @@
 
 
 <view class="item">
-  <view class="title">5.与同伴互动，如：拉拉手、推小车等</view>
+  <view class="title">5.与同伴互动（如：拉拉手、推小车等）</view>
   <view class="radio">
     <van-radio-group value="{{ radio_10_5 }}" data-id='10_5' bind:change="onChange">
       <van-row>
@@ -1586,7 +1585,7 @@
 
 
 <van-divider contentPosition="center" customStyle="color: #1989fa;border-color: #1989fa;font-size: 18px;">生命功能</van-divider><view class="item">
-  <view class="title">1.空间感，如：知道高、低差距，高处摔下来会疼会受伤</view>
+  <view class="title">1.空间感（如：知道高、低差距，高处摔下来会疼会受伤等）</view>
   <view class="radio">
     <van-radio-group value="{{ radio_12_1 }}" data-id='12_1' bind:change="onChange">
       <van-row>
@@ -1607,7 +1606,7 @@
 
 
 <view class="item">
-  <view class="title">2.触感，如：感知温度</view>
+  <view class="title">2.触感（如：感知温度等）</view>
   <view class="radio">
     <van-radio-group value="{{ radio_12_2 }}" data-id='12_2' bind:change="onChange">
       <van-row>
@@ -1628,7 +1627,7 @@
 
 
 <view class="item">
-  <view class="title">3.速度感，如：对于快速、慢速的感受</view>
+  <view class="title">3.速度感（如：对于快速、慢速的感受等）</view>
   <view class="radio">
     <van-radio-group value="{{ radio_12_3 }}" data-id='12_3' bind:change="onChange">
       <van-row>
@@ -1649,7 +1648,7 @@
 
 
 <view class="item">
-  <view class="title">4.规则感，如：马路上不可以乱跑等</view>
+  <view class="title">4.规则感（如：马路上不可以乱跑等）</view>
   <view class="radio">
     <van-radio-group value="{{ radio_12_4 }}" data-id='12_4' bind:change="onChange">
       <van-row>
@@ -1670,7 +1669,7 @@
 
 
 <view class="item">
-  <view class="title">5.安全感，如：出门要牵着妈妈手等</view>
+  <view class="title">5.安全感（如：出门要牵着妈妈手等）</view>
   <view class="radio">
     <van-radio-group value="{{ radio_12_5 }}" data-id='12_5' bind:change="onChange">
       <van-row>
@@ -1689,5 +1688,4 @@
   <van-divider />
 </view>
 
-<van-button type="info" size="large" bind:click="overSub">填写完毕</van-button>
-
+  <van-button  type="info" size="large" bind:click="overSub">提交</van-button>

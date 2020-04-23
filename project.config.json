@@ -52,7 +52,7 @@
 					"id": 0,
 					"name": "pages/result/result",
 					"pathName": "pages/result/result",
-					"query": "score=200",
+					"query": "score=150",
 					"scene": null
 				}
 			]

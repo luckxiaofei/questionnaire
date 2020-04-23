@@ -1,3 +1,9 @@
+<view class="textAll">
+  <view>亲爱的家长，您好！</view>
+  <view>欢迎您使用圣之星自闭症评估小程序。</view>
+  <view>本程序中的评估内容只适用于自闭症儿童，仅用于本公司服务推荐，请您在确认儿童为自闭症后进行评估。</view>
+</view>
+
 <view class="butt">
   <van-button round type="info" size="large" bind:click="onClick">开始</van-button>
   <van-dialog id="van-dialog" />

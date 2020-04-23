@@ -1,3 +1,9 @@
 .butt{
-  margin-top: 300rpx;
+  margin-top: 200rpx;
+}
+
+.textAll{
+  margin-top: 100rpx;
+  margin-right: 50rpx;
+  padding-left: 50rpx;
 }

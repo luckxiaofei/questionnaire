@@ -16,41 +16,44 @@
   <van-collapse-item title="套餐具体内容" name="4">
     <view wx:if="{{grade==1}}">
       <view>
-        A套餐：一节30分钟个训课+三节30分钟团体课+家长陪同感统练习60分钟
+        A套餐：一节30分钟个训课+三节30分钟团体课+家长陪同感统训练（60分钟）
       </view>
-      <view> B套餐：一节30分钟个训课+五节30分钟团体课+家长陪同感统练习60分钟 </view>
-      <view>团体课：心智语言课、音乐疗育课、艺术培养课、感觉统合训练课、生活情景课</view>
+      <view> B套餐：一节30分钟个训课+五节30分钟团体课+家长陪同感统训练（60分钟）</view>
+      <text>\n</text>
+      <view>团体课：游戏课、 VR体感课、生活情景课、音乐疗育课、艺术课、心智语言课、幼小衔接课程等</view>
     </view>
 
     <view wx:if="{{grade==2}}">
       <view>
-        <view> A套餐：一节30分钟2对1特训课+三节30分钟团体课+家长陪同感统练习60分钟 </view>
-        <view> B套餐：一节30分钟2对1特训课+五节30分钟团体课+家长陪同感统练习60分钟 </view>
-        <view> 团体课：心智语言课、音乐疗育课、艺术培养课、感觉统合训练课、生活情景课 </view>
+        <view>A套餐：一节30分钟2对1特训课+三节30分钟团体课+家长陪同感统训练（60分钟）</view>
+        <view> B套餐：一节30分钟2对1特训课+五节30分钟团体课+家长陪同感统训练（60分钟） </view>
+        <text>\n</text>
+        <view>团体课：游戏课、 VR体感课、生活情景课、音乐疗育课、艺术课、心智语言课、幼小衔接课程等 </view>
       </view>
     </view>
     <view wx:if="{{grade==3||grade==4||grade==5}}">
       <view>
-        <view> A套餐：四节30分钟团体课+家长陪同感统练习60分钟 </view>
-        <view> B套餐：六节30分钟团体课+家长陪同感统练习60分钟 </view>
-        <view> 团体课：社交语言融合课、逻辑思维课、艺术创造课、音乐疗育课、感统统合训练课、体感课、社交游戏课、幼小衔接课程 </view>
+        <view>A套餐：四节30分钟团体课+家长陪同感统训练（60分钟） </view>
+        <view>B套餐：一节30分钟2对1特训课+五节30分钟团体课+家长陪同感统训练（60分钟） </view>
+        <text>\n</text>
+        <view>团体课：游戏课、 VR体感课、生活情景课、音乐疗育课、艺术课、心智语言课、幼小衔接课程等 </view>
       </view>
     </view>
   </van-collapse-item>
   <van-collapse-item title="套餐外可选择的能力提升课：" name="5">
     <view> 个训课 </view>
     <view> 一对一感觉统合治疗课 </view>
-    <view> 口部定位言语治疗课 </view>
+    <view> 圣洁口部定位言语治疗课 </view>
     <view> 2对1特训课 </view>
-    <view> 各种团体课</view>
+    <view> 团体课</view>
   </van-collapse-item>
-  <van-collapse-item title="入学年级划分标准：" name="6">
+  <!-- <van-collapse-item title="入学年级划分标准：" name="6">
     <view> 评估分数 </view>
     <view> ≤120---1年级，需极重度干预 </view>
     <view> 121-160---2年级，需重度干预 </view>
     <view> 161-200---3年级，需中度干预 </view>
     <view> 201-220---4年级，需轻度干预 </view>
     <view> 221-240---5年级，需轻度干预</view>
-  </van-collapse-item>
+  </van-collapse-item> -->
 
 </van-collapse>
